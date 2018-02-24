@@ -1,0 +1,306 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Effects of social media</h:title>
+    <model>
+      <instance>
+        <data id="build_Effects-of-social-media_1519471047">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Reqired>
+            10
+          </Reqired>
+          <untitled3/>
+          <untitled4/>
+          <untitled8/>
+          <untitled10/>
+          <untitled11/>
+          <untitled12/>
+          <untitled14/>
+          <untitled15/>
+          <untitled16/>
+          <untitled17/>
+          <untitled19/>
+          <untitled20/>
+          <untitled22/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Reqired:label">
+            <value>First name</value>
+          </text>
+          <text id="/data/Reqired:requiredMsg">
+            <value>family name</value>
+          </text>
+          <text id="/data/untitled3:label">
+            <value>Second name</value>
+          </text>
+          <text id="/data/untitled3:requiredMsg">
+            <value>given name</value>
+          </text>
+          <text id="/data/untitled4:label">
+            <value>City/zone</value>
+          </text>
+          <text id="/data/untitled4:hint">
+            <value>where you leave</value>
+          </text>
+          <text id="/data/untitled8:label">
+            <value>Are you a member of multiple social networking sites?</value>
+          </text>
+          <text id="/data/untitled8:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled8:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled10:label">
+            <value>Do you visit your social networking sites with no goal or specific purpose in mind?</value>
+          </text>
+          <text id="/data/untitled10:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled10:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled11:label">
+            <value>Are you usually surprised by how much time you spend on a social networking site?</value>
+          </text>
+          <text id="/data/untitled11:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled11:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled11:option2">
+            <value>Undecided</value>
+          </text>
+          <text id="/data/untitled12:label">
+            <value>Have you ever said no to an activity with your family or friends because of social networking sites</value>
+          </text>
+          <text id="/data/untitled12:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled12:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled14:label">
+            <value>Have you ever ignored a responsibility like homework or chores because of social networking sites?</value>
+          </text>
+          <text id="/data/untitled14:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled14:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled15:label">
+            <value>Do you ever stay up late or get up early to spend more time on social networking sites?</value>
+          </text>
+          <text id="/data/untitled15:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled15:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled15:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/untitled16:label">
+            <value>Have you ever hidden your time on social networking sites from family or friends?</value>
+          </text>
+          <text id="/data/untitled16:option0">
+            <value>yes</value>
+          </text>
+          <text id="/data/untitled16:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled16:option2">
+            <value>sometimes</value>
+          </text>
+          <text id="/data/untitled17:label">
+            <value>Do you prefer to interact with people on social networking sites rather than face to face?</value>
+          </text>
+          <text id="/data/untitled17:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled17:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled19:label">
+            <value>Has anyone ever commented on how much time you spend on social networking sites?</value>
+          </text>
+          <text id="/data/untitled19:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled19:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled20:label">
+            <value>Do you have more friends on your social networking sites than you do in your real life?</value>
+          </text>
+          <text id="/data/untitled20:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/untitled20:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/untitled22:label">
+            <value>Do you become frustrated or angry when a social networking site goes down or is unavailable?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Reqired" type="string" required="true()" jr:requiredMsg="jr:itext('/data/Reqired:requiredMsg')"/>
+      <bind nodeset="/data/untitled3" type="string" required="true()" jr:requiredMsg="jr:itext('/data/untitled3:requiredMsg')"/>
+      <bind nodeset="/data/untitled4" type="string" required="true()"/>
+      <bind nodeset="/data/untitled8" type="select1" required="true()"/>
+      <bind nodeset="/data/untitled10" type="select1"/>
+      <bind nodeset="/data/untitled11" type="select1"/>
+      <bind nodeset="/data/untitled12" type="select1"/>
+      <bind nodeset="/data/untitled14" type="select1"/>
+      <bind nodeset="/data/untitled15" type="select1"/>
+      <bind nodeset="/data/untitled16" type="select1"/>
+      <bind nodeset="/data/untitled17" type="select1"/>
+      <bind nodeset="/data/untitled19" type="select1"/>
+      <bind nodeset="/data/untitled20" type="select1"/>
+      <bind nodeset="/data/untitled22" type="string" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/Reqired">
+      <label ref="jr:itext('/data/Reqired:label')"/>
+    </input>
+    <input ref="/data/untitled3">
+      <label ref="jr:itext('/data/untitled3:label')"/>
+    </input>
+    <input ref="/data/untitled4">
+      <label ref="jr:itext('/data/untitled4:label')"/>
+      <hint ref="jr:itext('/data/untitled4:hint')"/>
+    </input>
+    <select1 ref="/data/untitled8">
+      <label ref="jr:itext('/data/untitled8:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled8:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled8:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled10">
+      <label ref="jr:itext('/data/untitled10:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled10:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled10:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled11">
+      <label ref="jr:itext('/data/untitled11:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled11:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled11:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled11:option2')"/>
+        <value>undecided</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled12">
+      <label ref="jr:itext('/data/untitled12:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled12:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled12:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled14">
+      <label ref="jr:itext('/data/untitled14:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled14:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled14:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled15">
+      <label ref="jr:itext('/data/untitled15:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled15:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled15:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled15:option2')"/>
+        <value>sometimes</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled16">
+      <label ref="jr:itext('/data/untitled16:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled16:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled16:option1')"/>
+        <value>no</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled16:option2')"/>
+        <value>sometimes</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled17">
+      <label ref="jr:itext('/data/untitled17:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled17:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled17:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled19">
+      <label ref="jr:itext('/data/untitled19:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled19:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled19:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/untitled20">
+      <label ref="jr:itext('/data/untitled20:label')"/>
+      <item>
+        <label ref="jr:itext('/data/untitled20:option0')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/untitled20:option1')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/untitled22">
+      <label ref="jr:itext('/data/untitled22:label')"/>
+    </input>
+  </h:body>
+</h:html>
